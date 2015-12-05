@@ -2,7 +2,7 @@ package 'Install tmuxinator' do
   package_name 'tmuxinator'
 end
 
-node['users'].each do |u|
+node[:users].each do |u|
   directory '/home/#{u}/.tmuxinator' do
     action :create
   end
