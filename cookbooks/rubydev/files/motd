@@ -1,39 +1,4 @@
 #===========================================================================#
 #                            Getting Started                                #
 #===========================================================================#
-1. Pull project from source control:
-
-        [vagrant@localhost] cd src
-        [vagrant@localhost] svn --username=<svn-user> co <svn-url> stealth_marketplace
-
-2. Change directory to project root:
-
-        [vagrant@localhost] cd src/stealth_marketplace
-
-3. Install required ruby version if instructed to do so instructed by rvm:
-
-        [vagrant@localhost] rvm install <version>
-
-4. Update AWS credentials and config by editing:
-
-        ~/.aws/credentials
-        ~/.aws/config
-
-5. Set a unique name for AWS test resources by performing the following:
-
-        echo "<a unique name>" >> ~/.rspec_user_name
-
-6. Execute your first test run:
-
-        [vagrant@localhost] cd ~/src/stealth_marketplace
-        [vagrant@localhost] bin/rake
-        [vagrant@localhost] bin/rspec
-
-
-7.  If you wish to use Kitchen for cookbook testing perform the following.
-
-        i.   Copy an AWS private key to the vagrant box.
-        ii.  Edit .bashrc to set AWS_SSH_* environment variables.
-        iii. Load the new environment vars using . ~/.bashrc 
-
-8. Optionally remove this message by removing content of /etc/motd 
+1. This is a new development environment...to be continued

@@ -28,7 +28,7 @@ package pkg_list
 include_recipe "rubydev::users"
 include_recipe "rubydev::rvm"
 include_recipe "rubydev::vim"
-include_recipe "rubydev::aws-config"
+include_recipe "rubydev::config"
 include_recipe "rubydev::tmuxinator"
 
 case node[:platform]
