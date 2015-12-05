@@ -29,8 +29,8 @@ export AWS_SSH_KEY_ID=""
 # associated with the AWS key pair identified by the AWS_SSH_KEY_ID variable.
 #
 export AWS_SSH_KEY=""
-s
-ource /usr/share/git-core/contrib/completion/git-prompt.sh
+
+source /usr/share/git-core/contrib/completion/git-prompt.sh
 
 Color_Off="\[\033[0m\]"       # Text Reset
 

@@ -3,11 +3,14 @@ package 'Install tmuxinator' do
 end
 
 node[:users].each do |u|
-  directory '/home/#{u}/.tmuxinator' do
-    action :create
+  directory "/home/#{u}/.tmuxinator" do
+    owner u
+    group u
   end
 
-  cookbook_file '/home/#{u}/.tmuxinator/tmux.yml' do
+  cookbook_file "/home/#{u}/.tmuxinator/tmux.yml" do
     source 'tmux.yml'
+    owner u
+    group u
   end
 end
