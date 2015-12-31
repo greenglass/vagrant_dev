@@ -91,3 +91,5 @@ let g:vim_json_syntax_conceal = 0
 let g:indent_guides_guide_size=1
 
 autocmd BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
+autocmd BufWritePre *.java :normal gg=G
+autocmd BufWritePre *.rb :normal gg=G
