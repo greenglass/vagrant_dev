@@ -47,8 +47,8 @@ set number
 syntax enable
 set background=dark
 let g:solarized_termcolors=256
-colorscheme solarized
-" colorscheme elflord
+" colorscheme solarized
+colorscheme elflord
 
 set noswapfile
 
