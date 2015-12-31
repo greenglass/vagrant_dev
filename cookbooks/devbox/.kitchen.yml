@@ -6,10 +6,10 @@ provisioner:
   name: chef_zero
 
 platforms:
-    - name: box-cutter/fedora22
+    - name: ubuntu-14.04
 
 suites:
   - name: default
     run_list:
-      - recipe[rubydev::default]
+      - recipe[devbox::default]
     attributes:

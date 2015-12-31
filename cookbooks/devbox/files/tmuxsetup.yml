@@ -1,6 +1,6 @@
-# ~/.tmuxinator/aws-ruby.yml
+# ~/.tmuxinator/tmux.yml
 
-name: aws-ruby
+name: tmuxsetup
 root: ~/src/trunk
 
 # Optional tmux socket
@@ -28,9 +28,8 @@ root: ~/src/trunk
 # post: tmux -CC attach -t aws-ruby
 
 windows:
-  - editor: vim "+NERDTree" Gemfile
-  - rspec: 
-  - rspeclogs: 
-  - kitchen:
-  - subversion: 
+  - editor: vim "+NERDTree"
+  - compile:
+  - git: 
   - system: 
+  - eclimdaemon:

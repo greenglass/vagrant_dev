@@ -14,22 +14,6 @@ vi='vim'
 export PATH="/opt/packer:$PATH:$HOME/.rvm/bin:$HOME/bin" # Add RVM to PATH for scripting
 export EDITOR=vim
 
-#
-# AWS Kitchen Configuration
-
-#
-# Identifies the AWS keypair with which Kitchen test instances
-# will be created.  This needs to match the name of the key pair
-# as shown in the EC2 console.
-#
-export AWS_SSH_KEY_ID=""
-
-#
-# Identifies the path to the private key file on your local file system
-# associated with the AWS key pair identified by the AWS_SSH_KEY_ID variable.
-#
-export AWS_SSH_KEY=""
-
 source /usr/share/git-core/contrib/completion/git-prompt.sh
 
 Color_Off="\[\033[0m\]"       # Text Reset

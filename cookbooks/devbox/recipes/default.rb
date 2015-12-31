@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: rubydev
+# Cookbook Name:: devbox
 # Recipe:: default
 #
 
@@ -25,11 +25,11 @@ when 'ubuntu'
 end
 
 package pkg_list
-include_recipe "rubydev::users"
-include_recipe "rubydev::rvm"
-include_recipe "rubydev::vim"
-include_recipe "rubydev::config"
-include_recipe "rubydev::tmuxinator"
+include_recipe "devbox::users"
+include_recipe "devbox::rvm"
+include_recipe "devbox::vim"
+include_recipe "devbox::config"
+include_recipe "devbox::tmuxinator"
 
 case node[:platform]
 when 'fedora'

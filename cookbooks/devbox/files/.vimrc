@@ -43,9 +43,12 @@ filetype plugin indent on    " required
 
 set rtp+=/usr/share/vim/site
 
+set number
 syntax enable
 set background=dark
-colorscheme elflord
+let g:solarized_termcolors=256
+colorscheme solarized
+" colorscheme elflord
 
 set noswapfile
 
