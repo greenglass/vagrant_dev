@@ -4,7 +4,10 @@ This is a development environment based on Ubuntu 14.04 that will use vagrant to
 
 ## Usage
 
-To start, you will need to download and install Virtual Box since Vagrant will use Virtual Box as it's virtualization platform. 
+To start, you need to download Vagrant. This technology will create and customize the development environment based on the chef cookbooks in this project.
+https://www.vagrantup.com/downloads.html
+
+You will need to download and install Virtual Box since Vagrant will use Virtual Box as it's virtualization platform. 
 https://www.virtualbox.org/wiki/Downloads
 
 Make sure you have git installed on your local machine so you can clone this repository:
