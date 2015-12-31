@@ -36,11 +36,12 @@ vagrant up
 
 Because of the different packages being downloaded and installed this may take several hours depending on your internet connection speed. Downloading the Ubuntu 14.04 box and Eclipse both take a good amount of time.
 
-Once the machine is up and done customizing you are able to start development. You can now ssh to the machine via PuTTy (if using Windows) or SSH using Linux.  
-IP: 127.0.0.1  
-Port: 2222  
-Username: vagrant  
-Password: vagrant  
+Once the machine is up and done customizing you are able to start development. You can now ssh to the machine via PuTTy (if using Windows) or SSH using Linux. The following information can be used to access the development box.  
+ 
+* IP: 127.0.0.1  
+* Port: 2222  
+* Username: vagrant  
+* Password: vagrant  
 
 ```bash
 ssh vagrant@127.0.0.1 -p 2222
