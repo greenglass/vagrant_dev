@@ -30,6 +30,8 @@ include_recipe "devbox::rvm"
 include_recipe "devbox::vim"
 include_recipe "devbox::config"
 include_recipe "devbox::tmuxinator"
+include_recipe "devbox::eclipse"
+include_recipe "devbox::eclim"
 
 case node[:platform]
 when 'fedora'

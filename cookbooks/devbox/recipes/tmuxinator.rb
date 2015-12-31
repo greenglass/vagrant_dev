@@ -1,4 +1,7 @@
 node[:users].each do |u|
+  
+  gem_package 'tmuxinator'
+  
   directory "/home/#{u}/.tmuxinator" do
     owner u
     group u

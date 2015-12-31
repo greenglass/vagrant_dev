@@ -14,7 +14,7 @@ vi='vim'
 export PATH="/opt/packer:$PATH:$HOME/.rvm/bin:$HOME/bin" # Add RVM to PATH for scripting
 export EDITOR=vim
 
-source /usr/share/git-core/contrib/completion/git-prompt.sh
+source /etc/bash_completion.d/git-prompt
 
 Color_Off="\[\033[0m\]"       # Text Reset
 
