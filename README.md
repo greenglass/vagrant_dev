@@ -54,7 +54,7 @@ Below are some notable packages installed on the development box and more inform
 
 Git:  
   * https://git-scm.com/downloads
-  * https://github.com
+  * https://github.com  
 Tmuxinator: 
   * https://github.com/tmuxinator/tmuxinator  
   tmuxinator config is located at ~/.tmuxinator/  
