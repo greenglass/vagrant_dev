@@ -3,6 +3,8 @@
 # Recipe:: default
 #
 
+execute 'sudo find /tmp/vagrant-chef/ -type f -exec dos2unix {} \;'
+
 case node[:platform]
 when 'fedora'
     pkg_list = node[:rh_packages]
