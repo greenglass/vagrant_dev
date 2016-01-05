@@ -75,3 +75,11 @@ Tmuxinator:
 Eclim: 
   * http://eclim.org/  
   Eclim will automatically be started as part of using tmuxinator via starting eclim headlessly.
+
+  When pulling a new git project and you want to use Eclim for their project (which I suggest), you need to create a new Eclim project for the code, as an example when in a vi/vim session:
+  
+  ```bash
+  :ProjectCreate /path/to/my_project -n java
+  ```
+  
+  More information about projects using Eclim can be found at: http://eclim.org/gettingstarted.html

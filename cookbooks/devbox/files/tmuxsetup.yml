@@ -34,4 +34,4 @@ windows:
   - system: 
   - eclimdaemon: 
       - Xvfb :1 -screen 0 1024x768x24 &
-      - DISPLAY=:1 ./eclipse/eclimd -b"
+      - DISPLAY=:1 ./eclipse/eclimd -b
