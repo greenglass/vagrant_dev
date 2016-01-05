@@ -34,6 +34,12 @@ Execute the following command for Vagrant to create a new development environmen
 vagrant up
 ```
 
+NOTE: During vagrant provisioning if you experience failure with issues that end with ^M then the file format is in dos (windows) on a unix (linux) file system. The file be complained about needs to be set to unix using vi/vim. Open the file and enter the following command in vi/vim by using ':'. Once this is complete then save the file and provision again.
+
+```bash
+set ff=unix
+```
+
 Because of the different packages being downloaded and installed this may take several hours depending on your internet connection speed. Downloading the Ubuntu 14.04 box and Eclipse both take a good amount of time.
 
 Once the machine is up and done customizing you are able to start development. You can now ssh to the machine via PuTTy (if using Windows) or SSH using Linux. The following information can be used to access the development box.  
