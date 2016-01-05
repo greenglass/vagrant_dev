@@ -20,6 +20,7 @@ when 'fedora'
     execute 'mv /usr/bin/yum /usr/bin/yum-saved'
     execute 'ln -s /usr/bin/yum-deprecated /usr/bin/yum'
 when 'ubuntu'
+    execute 'sudo rm -rf /var/lib/apt/lists/*'
     pkg_list = node[:ubuntu_packages]
     execute 'apt-get update'
 end
