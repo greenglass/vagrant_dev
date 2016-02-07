@@ -2,9 +2,6 @@
 # Cookbook Name:: devbox
 # Recipe:: default
 #
-
-execute 'sudo find /tmp/vagrant-chef/ -type f -exec dos2unix {} \;'
-
 case node[:platform]
 when 'fedora'
     pkg_list = node[:rh_packages]
@@ -28,6 +25,7 @@ when 'ubuntu'
 end
 
 package pkg_list
+execute 'sudo find /tmp/vagrant-chef/ -type f -exec dos2unix {} \;'
 include_recipe "devbox::users"
 include_recipe "devbox::rvm"
 include_recipe "devbox::vim"
